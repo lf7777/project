@@ -1,0 +1,100 @@
+.my_form1 {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    right: 23%;
+}
+
+h1 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.register_div {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.content {
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+
+
+.my_form {
+    display: none;
+    width: 10%;
+    position: absolute;
+    left: 4%;
+    top: 12%;
+    padding: 10px;
+}
+
+.my_button {
+    border: none;
+    margin-left: 4%;
+    margin-top: 9%;
+    color: #337ab7;
+}
+
+.append_div {
+    margin-top: -13px;
+    font-size: 12px;
+}
+
+.remove_div {
+    display: none;
+    position: fixed;
+    margin-top: 25%;
+    margin-left: 4.5%;
+    font-size: 12px;
+    width: 8.8%;
+}
+
+.my_button2 {
+    margin-top: 10px;
+    width: 68%;
+}
+
+#cate {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.cate_div0:hover {
+    color: white;
+}
+.cate_div0:hover .cate_div{
+    display: block;
+}
+
+.cate_div0 {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 25px;
+    background-color: #CCCCCC;
+    text-align: center;
+}
+
+.cate_div{
+    background-color:white;
+    color: black;
+    width: 250%;
+    position: absolute;
+    top: 38.5%;
+    left: 94.3%;
+    display: none;
+}
+
+th{
+    width: 10%;
+    background-color: #CCCCCC;
+}
+
+.th1{
+    width: 7%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="hh">标题</h1>
+
+    <button id="bb" onclick="settext(this)">按钮</button>
+
+    <p id="pp">修改后</p>
+
+    <input type="checkbox" name="like[]">篮球
+
+    <input type="checkbox" name="like[]">足球
+
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+    </label>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script>
+        function settext(obj) {
+            document.getElementById("hh").innerHTML = obj.innerHTML
+        }
+    </script>
+
+</body>
+
+</html>
